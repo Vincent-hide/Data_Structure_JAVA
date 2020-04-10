@@ -1,7 +1,7 @@
 # Data Structure In JAVA
 
 
-- [] Hash Table
+- [ ] Hash Table
     * Linear probing
     * Quadratic probing 
     * Double probing 
