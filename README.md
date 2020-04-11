@@ -29,6 +29,9 @@
     * Double probing 
 
 - [ ] Binary Search Tree
+    * Iterative Binary Search Tree
+    * Recursive Binary Search Tree
+    * Binary Search Tree with Inner Class
 
 - [ ] Min Heap
 
@@ -41,7 +44,7 @@
     * DFS & BFS
     * Dijkstra's Algorithm
     * A* Algorithm
-    * Tpopological Sort
+    * Topological Sort
     * Minimum Spanning Tree
         * Kruskal
         * Prim
