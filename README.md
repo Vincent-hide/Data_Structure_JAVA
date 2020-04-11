@@ -22,6 +22,9 @@
     * Doubly Linked List
 
 - [ ] Queue and Statck
+    * Array Queue
+    * Linked List Queue
+    * Circular Queue
 
 - [x] Hash Table
     * Linear probing
