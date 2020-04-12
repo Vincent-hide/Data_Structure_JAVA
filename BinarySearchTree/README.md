@@ -9,7 +9,8 @@
 * delete
 * isEmpty
 * contains
-* delete 
+* delete inorder successor
+* delete inorder predecessor
 * inOrder Traversal 
 * preOrder Traversal 
 * postOrder Traversal
