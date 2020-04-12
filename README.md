@@ -21,10 +21,16 @@
     * Singly Linked List 
     * Doubly Linked List
 
-- [ ] Queue and Statck
+- [ ] Queue and Stack
     * Array Queue
     * Linked List Queue
     * Circular Queue
+
+    * Array Stack
+    * Linked List Stack
+
+    * Circular Array
+
 
 - [ ] Hash Table
     * Linear probing
