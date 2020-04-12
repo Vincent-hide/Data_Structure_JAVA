@@ -26,17 +26,20 @@
     * Linked List Queue
     * Circular Queue
 
-- [x] Hash Table
+- [ ] Hash Table
     * Linear probing
     * Quadratic probing 
-    * Double probing 
+    * Double probing
+    * Seperate Chaining 
 
 - [ ] Binary Search Tree
     * Iterative Binary Search Tree
     * Recursive Binary Search Tree
     * Binary Search Tree with Inner Class
 
-- [ ] Min Heap
+- [ ] Heap
+    * Min Heap
+    * Max Heap
 
 - [ ] Graphs
     Types | Weighted | Unweighted

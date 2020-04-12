@@ -4,6 +4,7 @@
 ### RBST = Recursive Binary Search Tree
 ### HBST = Binary Search Tree wit Inner Class Node
 
+##### Operations
 * insert
 * delete
 * isEmpty
