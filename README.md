@@ -2,8 +2,11 @@
 
 - [ ] Recrsion & Dinamic Programming
     * Fibonacci Memoization
-
-- [ ] Circular Array
+    * Coin Change
+    * Rat in a Maze
+    * 0-1 KnapSach
+    * Longgest Common Subsequence
+    * Matrix Multiplication
 
 - [ ] Sorting Algorithm
     * Selection Sort
