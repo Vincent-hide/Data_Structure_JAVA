@@ -1,6 +1,6 @@
 # Data Structure In JAVA
 
-- [ ] Recrsion & Dinamic Programming
+- [ ] Recrsion & Dynamic Programming
     * Fibonacci Memoization
     * Coin Change
     * Rat in a Maze
