@@ -28,6 +28,7 @@
     * Array Queue
     * Linked List Queue
     * Circular Queue
+    * Priority Queue
 
     * Array Stack
     * Linked List Stack
