@@ -47,7 +47,7 @@ public class LinearProbing {
     public boolean search(String key) {
         int loc = hashFunc(key);
         
-        while(this.arr[loc] != null && this.arr[loc] != "DELETED") {
+        while(this.arr[loc] != null) {
             if(this.arr[loc] == key) {
                 return true;
             }
@@ -59,7 +59,7 @@ public class LinearProbing {
     public boolean delete(String key) {
         int loc = hashFunc(key);
         
-        while(this.arr[loc] != null && this.arr[loc] != "DELETED") {
+        while(this.arr[loc] != null) {
             if(this.arr[loc] == key) {
                 this.arr[loc] = "DELETED";
                 this.num--;

@@ -57,7 +57,7 @@ public class DoubleHash {
         int loc = hashFunc(key);
         int loc2 = hashFunc2(key);
         
-        while(this.arr[loc] != null && this.arr[loc] != "DELETED") {
+        while(this.arr[loc] != null) {
             if(this.arr[loc] == key) {
                 return true;
             }
@@ -70,7 +70,7 @@ public class DoubleHash {
         int loc = hashFunc(key);
         int loc2 = hashFunc2(key);
         
-        while(this.arr[loc] != null && this.arr[loc] != "DELETED") {
+        while(this.arr[loc] != null) {
             if(this.arr[loc] == key) {
                 this.arr[loc] = "DELETED";
                 this.num--;

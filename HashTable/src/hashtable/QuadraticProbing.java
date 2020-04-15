@@ -54,7 +54,7 @@ public class QuadraticProbing {
         int loc = hashFunc(key);
         int firstLoc = loc;
         
-        while(this.arr[loc] != null && this.arr[loc] != "DELETED") {
+        while(this.arr[loc] != null) {
             if(this.arr[loc] == key) {
                 return true;
             }
