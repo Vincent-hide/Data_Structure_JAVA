@@ -89,11 +89,7 @@ public class MinimumHeap {
         }
 
         while (this.arr[index] > this.arr[left] || this.arr[index] > this.arr[right]) {
-            
-            System.out.println("-----------------------------");
-            System.out.println("[this.arr[left]] " + this.arr[left]);
-            System.out.println("[this.arr[right]] " + this.arr[right]);
-            
+                      
             if (this.arr[left] < this.arr[right]) {
                 this.swap(index, left);
                 index = left;
