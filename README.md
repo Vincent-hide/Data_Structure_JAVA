@@ -47,7 +47,7 @@
     * Recursive Binary Search Tree
     * Binary Search Tree with Inner Class
 
-- [ ] Heap
+- [x] Heap
     * Min Heap
     * Max Heap
 
