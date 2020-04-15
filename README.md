@@ -36,7 +36,7 @@
     * Circular Array
 
 
-- [ ] Hash Table
+- [x] Hash Table
     * Linear probing
     * Quadratic probing 
     * Double probing
