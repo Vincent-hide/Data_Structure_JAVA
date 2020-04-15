@@ -5,7 +5,7 @@ Types | Weighted | Unweighted
 Directed | Weighted Directed | Unweighted Directed
 Undirected | Weighted Undirected | Unweighted Undirected
 
-### DFS & BFS
+### Weight Directed Graph = DFS & BFS
 ### Dijkstra's Algorithm
 ### A* Algorithm
 ### Topological Sort
