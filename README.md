@@ -1,6 +1,7 @@
 # Data Structure In JAVA
 
 - [ ] Recrsion & Dynamic Programming
+    * Knight Tour
     * Fibonacci Memoization
     * Coin Change
     * Rat in a Maze
