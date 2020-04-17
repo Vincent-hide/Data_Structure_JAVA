@@ -67,7 +67,7 @@ public class WD {
         for (int i = 0; i < this.num; i++) {
             s += String.format("[%s]", this.vertices[i]);
             for (int v = 0; v < this.num; v++) {
-                s += this.edges[i][v] == this.MAX ? " IF " : this.edges[i][v] == 0 ? " 00 " : String.format(" %s ", this.edges[i][v]);
+                s += this.edges[i][v] == this.MAX ? " IF " : this.edges[i][v] == 0 ? " 00 " : String.format(" %s ", (Integer.toString(this.edges[i][v]).length() != 1) ? this.edges[i][v] : " " + this.edges[i][v]);
             }
             s += "\n";
         }
