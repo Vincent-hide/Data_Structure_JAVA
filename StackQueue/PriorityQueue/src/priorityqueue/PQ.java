@@ -79,6 +79,14 @@ public class PQ {
         int left = getLeftIndex(index);
         int right = getRightIndex(index);
 
+        if(this.arr[left] == null) {
+            return;
+        }
+
+        if(this.arr[right] == null && this.arr[index].compareTo(this.arr[left]) < 0) {
+            return;
+        }
+
         if (this.arr[index].compareTo(this.arr[left]) < 0 && this.arr[index].compareTo(this.arr[right]) < 0) {
             return;
         }
