@@ -25,7 +25,7 @@
     * Singly Linked List 
     * Doubly Linked List
 
-- [ ] Queue and Stack
+- [ ] Stack and Queue
     * Array Queue
     * Linked List Queue
     * Circular Queue
