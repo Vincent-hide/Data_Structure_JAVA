@@ -78,33 +78,25 @@ public class PQ {
     private void shiftDown(int index) {
         int left = getLeftIndex(index);
         int right = getRightIndex(index);
-
-        if(this.arr[left] == null) {
-            return;
-        }
-
-        if(this.arr[right] == null && this.arr[index].compareTo(this.arr[left]) < 0) {
-            return;
-        }
-
-        if (this.arr[index].compareTo(this.arr[left]) < 0 && this.arr[index].compareTo(this.arr[right]) < 0) {
-            return;
-        }
-
-
-        while(this.arr[index].compareTo(this.arr[left]) > 0 && this.arr[index].compareTo(this.arr[right]) > 0) {
-            if (this.arr[left].compareTo(this.arr[right]) < 0) {
-                this.swap(index, left);
-                index = left;
+        int smaller;
+        
+        // to avoid NULL EXCEPTION 
+        if (right > this.num - 1) {
+            if (left > this.num - 1) {
+                return;
+            }
+            smaller = left;
+        } else {
+            if(this.arr[left].compareTo(this.arr[right]) < 0) {
+                smaller = left;
             } else {
-                this.swap(index, right);
-                index = right;
+                smaller = right;
             }
-            left = getLeftIndex(index);
-            right = getRightIndex(index);
-            if (right > this.num) {
-                break;
-            }
+        }
+        
+        if(this.arr[index].compareTo(this.arr[smaller]) < 0) {
+            this.swap(index, smaller);
+            this.shiftDown(smaller);
         }
     }
 

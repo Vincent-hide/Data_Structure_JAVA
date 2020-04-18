@@ -11,6 +11,9 @@ public class PriorityQueue {
         q.enqueue("D");
         
         System.out.println(q.dequeue());
+        System.out.println(q.dequeue());
+        System.out.println(q.dequeue());
+        System.out.println(q.dequeue());
         
         System.out.println(q);
     }
