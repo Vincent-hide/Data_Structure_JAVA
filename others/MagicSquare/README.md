@@ -1,4 +1,4 @@
-## Magic Square
+- Magic Square
     * the same number of row and column is considered to be N.
     * the sum of row, column, and both diagonal needs to be Constant = N(N^2+1)/2
 
