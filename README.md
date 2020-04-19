@@ -65,3 +65,6 @@
     * Minimum Spanning Tree
         * Kruskal
         * Prim
+
+- [ ] others
+    * Magic Square
