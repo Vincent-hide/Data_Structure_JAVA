@@ -66,5 +66,6 @@
         * Kruskal
         * Prim
 
-- [ ] others
+- [x] others
     * Magic Square
+    * Bit Wise Manipulation
