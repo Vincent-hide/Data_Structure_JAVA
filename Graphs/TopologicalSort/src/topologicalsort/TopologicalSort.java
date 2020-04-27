@@ -28,7 +28,7 @@ public class TopologicalSort {
 
         System.out.println(topologocal.printVertices());
         System.out.println(topologocal.printEdges());
-//        System.out.println(topologocal.topologicalSort());
+       System.out.println(topologocal.topologicalSort());
         System.out.println(topologocal.topoSort());
 
     }

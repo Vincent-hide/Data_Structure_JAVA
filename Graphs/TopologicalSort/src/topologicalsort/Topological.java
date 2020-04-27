@@ -152,7 +152,6 @@ public class Topological {
         }
 
         for (int i = 0; i < this.num; i++) {
-//            System.out.print(" " + this.vertices[locations[i]] + " <= ");
             s += String.format("%s <= ", this.vertices[locations[i]]);
         }
         return s + "START";
@@ -170,84 +169,4 @@ public class Topological {
         locs[locs.length - 1]++;
     }
 
-
-    // -------------------------------------------------------------------------
-//    public String topologicalSort(String start) {
-//        int loc = this.findVertex(start);
-//        if (loc == -1) {
-//            return null;
-//        }
-//
-//        String s = "**** Topological Sort ****";
-//
-//        boolean[] visited = new boolean[this.num];
-//        Stack stack = new Stack(this.num);
-//
-//        for (boolean vertex : visited) {
-//            if (!vertex) {
-//                this.topologicalSort(visited, loc, stack);
-//            }
-//        }
-//
-////        System.out.println(stack);
-//        return s;
-//    }
-//    
-//    private void topologicalSort(boolean[] visited, int loc, Stack stack) {
-//        //System.out.println(this.vertices[loc]);
-//        visited[loc] = true;
-//
-//        for (int i = 0; i < this.num; i++) {
-//            if (this.edges[loc][i] == 1 && !visited[i]) { 
-//
-//                loc = this.findVertex(this.vertices[i]);
-//                stack.push(new Vertex(this.vertices[loc], 1)); // set the value of each node as 1. 
-//                this.topologicalSort(visited, loc, stack);
-//
-//            }
-//        }
-//        System.out.println(stack);
-//    }
-    // -------------------------------------------------------------------------
-//    private int findNotVisited(boolean[] visited) {
-//        for (int i = 0; i < this.num; i++) {
-//            if (visited[i] == false) {
-//                return i;
-//            }
-//        }
-//        return -1;
-//    }
-//
-//    public String topologicalSort(String start) {
-//        int loc = this.findVertex(start);
-//        if (loc == -1) {
-//            return null;
-//        }
-//
-//        String s = "**** Topological Sort ****";
-//
-//        boolean[] visited = new boolean[this.num];
-//        Stack stack = new Stack(this.num);
-//
-//        this.topologicalSort(visited, loc, stack);
-//
-//        System.out.println(stack);
-//        return s;
-//    }
-//
-//    private void topologicalSort(boolean[] visited, int loc, Stack stack) {
-//        if (visited[loc] == true) {
-//            return;
-//        }
-//        visited[loc] = true;
-//
-//        stack.push(new Vertex(this.vertices[loc], 1)); // set the value of each node as 1. 
-//
-//        for (int i = 0; i < this.num; i++) {
-//            if (this.edges[loc][i] == 1) {
-//                loc = this.findVertex(this.vertices[i]);
-//                this.topologicalSort(visited, loc, stack);
-//            }
-//        }
-//    }
 }
