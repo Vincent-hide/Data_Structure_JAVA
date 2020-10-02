@@ -17,8 +17,7 @@ public class Main {
     arr[3] = 77;
     arr[4] = 65;
 
-
-    SortingFunctions.selectionSort(arr, 5);
+    SortingFunctions.quickSort(arr, 5);
     print(arr);
   }
 }
