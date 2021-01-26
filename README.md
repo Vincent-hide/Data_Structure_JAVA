@@ -1,5 +1,6 @@
-# Data Structure In JAVA
+# Data Structure 
 
+## Java
 - [ ] Recrsion & Dynamic Programming
     * Knight Tour
     * Fibonacci Memoization
@@ -69,3 +70,22 @@
 - [x] others
     * Magic Square
     * Bit Wise Manipulation
+
+## C++
+* Recursion
+	- [x] Fibonacci 
+	- [x] Substring Frequency using KMP Algorithm
+    [KMP Algorithm](https://www.geeksforgeeks.org/kmp-algorithm-for-pattern-searching/)
+	
+* Linked-List
+	- [x] Doubly Linked-List
+	- [x] Singly Linked-List
+		
+* Algorithm
+	- [x] 3x3 Magic Square with minimum cost
+	- [x] Back Tracking
+
+* Stack & Queue
+	- [x] Stack
+	- [x] Queue
+	- [x] CircularQueue
